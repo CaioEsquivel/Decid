@@ -1,0 +1,67 @@
+.section-three-card{
+    background: linear-gradient(300deg, rgb(12, 12, 12) 0%, rgb(26, 26, 26) 100%);
+    width: 300px;
+    border: 1px solid var(--white-15);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.section-three-card>img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.section-three-card-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+position: relative;
+}
+
+.section-three-card-content>h4{
+    font-size: 20px;
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-weight: var(--semibold-text);
+    
+}
+.section-three-card-content>p{
+    font-size: 16px;
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-weight: 500;
+
+}
+.card-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-information>span{
+    font-size: 16px;
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-weight: 500;
+}
+.card-information>i{
+    color: var(--yellow-marker);
+    font-size: 22px;
+}
+.section-three-card-emoji{
+    position: absolute;
+    top: -30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    color: var(--pure-white);
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgb(12, 12, 12) 0%, rgb(26, 26, 26) 100%);
+
+}

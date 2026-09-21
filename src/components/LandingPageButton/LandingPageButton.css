@@ -1,0 +1,90 @@
+.landing-button-voting{
+    border-radius: 444px;
+    text-decoration: none;
+    color: var(--pure-black);
+    background-color: var(--yellow-marker-80);
+    border: 1px solid var(--yellow-marker-80);
+    padding: 10px 30px;
+    font-family: var(--manrope);
+    font-size: 16px;
+    font-weight: var(--medium-text);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    gap: 5px;
+    text-wrap: nowrap;
+
+    flex-wrap: nowrap;
+}
+.landing-button-voting > i{
+    font-size: 14px;
+}
+.landing-button-login{
+    border-radius: 444px;
+    flex-wrap: nowrap;
+
+    text-decoration: none;
+    color: var(--pure-white);
+    background-color: var(--black-80);
+    border: 1px solid var(--white-60);
+    padding: 10px 30px;
+    font-family: var(--manrope);
+    text-wrap: nowrap;
+
+    font-size: 16px;
+    backdrop-filter: blur(3px);
+    font-weight: var(--medium-text);
+}
+.landing-one-btn-two{
+    border-radius: 444px;
+    text-decoration: none;
+    color: var(--pure-black);
+    background-color: var(--yellow-marker-80);
+    border: 1px solid var(--yellow-marker-80);
+    flex-wrap: nowrap;
+
+    padding: 10px 30px;
+    font-family: var(--manrope);
+    font-size: 16px;
+    font-weight: var(--medium-text);
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+
+
+}
+.landing-one-btn-two > i{
+    font-size: 16px;
+}
+.landing-one-btn-one{
+    border-radius: 444px;
+    text-decoration: none;
+    color: var(--pure-white);
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+    background-color: var(--black-80);
+    border: 1px solid var(--white-60);
+    padding: 10px 30px;
+    font-family: var(--manrope);
+    font-size: 16px;
+    font-weight: var(--medium-text);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.landing-one-btn-one:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:600px) {
+    .landing-button-voting{
+        font-size: 14px;
+    }
+    .landing-button-login{
+        font-size: 14px;
+    }
+}

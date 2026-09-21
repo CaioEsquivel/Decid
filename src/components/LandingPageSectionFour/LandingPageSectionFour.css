@@ -1,0 +1,57 @@
+.landing-page-section-four{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding: 40px 80px;
+    gap: 40px;
+    background: linear-gradient(0deg, rgb(12, 12, 12) 0%, rgb(17, 17, 17) 100%);
+
+}
+.section-four-content{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 450px;
+}
+.section-four-content>span{
+    color: var(--red-orange);
+    font-size: 16px;
+    font-weight: var(--medium-text);
+    font-family: var(--manrope);
+}
+.section-four-content>h3{
+    color: var(--pure-white);
+    font-size: 54px;
+    font-weight: var(--bold-text);
+    font-family: var(--playfair);
+    line-height: 90%;
+}
+
+.section-four-card-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, 350px);
+    padding: 0px 20px;
+    gap: 40px;
+    flex: 1;
+    justify-content: center;
+}
+@media (max-width:1445px) {
+    .landing-page-section-four{
+        flex-direction: column;
+        align-items: start;
+        padding: 40px 10px;
+    }
+    .section-four-card-container{
+        width: 100%;
+    }
+}
+@media (max-width:572px) {
+
+    .section-four-content{
+        text-align: center;
+        align-items: center;
+    }
+}

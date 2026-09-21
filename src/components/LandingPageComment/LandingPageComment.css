@@ -1,0 +1,40 @@
+.section-four-card{
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid var(--white-15);
+    background: #2e2e2e;
+background: linear-gradient(137deg, rgba(46, 46, 46, 0.23) 0%, rgba(15, 15, 15, 0.44) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.section-four-card > img{
+    width: 55px;
+    border: 1px solid var(--white-15);
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.section-four-card > p{
+    color: var(--pure-white);
+    font-size: 20px;
+    font-family: var(--manrope);
+}
+.section-four-card-details{
+    display: flex;
+    flex-direction: column;
+}
+.section-four-card-details > h5{
+    color: var(--pure-white);
+    font-size: 18px;
+    font-family: var(--manrope);
+}
+.section-four-card-details > span{
+    color: var(--gray-one);
+    font-size: 16px;
+    font-family: var(--manrope);
+    font-weight: var(--medium-text);
+}

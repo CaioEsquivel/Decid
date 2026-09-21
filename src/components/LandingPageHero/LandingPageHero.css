@@ -1,0 +1,207 @@
+.landing-page-section-one{
+    background-image:
+        linear-gradient(90deg,
+            rgba(0, 0, 0, 0.9) 35%,
+            rgba(0, 0, 0, 0.2) 
+        ),
+        url(../../assets/landing_page_banner.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 80px 40px 80px;
+    position: relative;
+}
+
+/* section one */
+
+
+.section-one-content{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: var(--pure-white);
+    width: 100%;
+    gap: 20px;
+    
+}
+.section-one-content > span{
+    font-size: 16px;
+    font-family: var(--manrope);
+    font-weight: var(--semibold-text);
+}
+.section-one-content > h2{
+    font-size: 128px;
+    font-family: var(--playfair);
+    font-weight: var(--semibold-text);
+    line-height: 90%;
+    max-width: 800px;
+}
+.hero-title-animated{
+     font-size: 128px;
+    font-family: var(--playfair);
+    font-weight: var(--semibold-text);
+    line-height: 90%;
+    width: 800px;
+    text-wrap: nowrap;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    justify-content: start;
+}
+.section-one-content > h2 > span{
+    color: var(--red-orange);
+    
+    
+}
+.hero-highlight{
+    color: var(--red-orange);
+
+}
+.section-one-content > p{
+    font-size: 18px;
+    font-family: var(--manrope);
+    font-weight: var(--medium-text);
+    max-width: 580px;
+}
+.hero-subtitle{
+    font-size: 18px;
+    font-family: var(--manrope);
+    font-weight: var(--medium-text);
+    max-width: 580px;
+
+}
+.section-one-content-button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+}
+@media (max-width: 1550px) {
+    .section-one-content > h2{
+        font-size: 108px ;
+    }
+    .hero-title-animated{
+        font-size: 108px ;
+        width: 650px;
+        justify-content: center;
+
+    }
+}
+@media (max-width:1447px) {
+    .landing-page-section-one>.section-one-phone > img {
+        width: 500px;
+    }
+}
+@media (max-width:1306px) {
+    .section-one-content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-one-content-button{
+        justify-content: center;
+    }
+    .section-one-phone{
+        display: none;
+    }
+}
+@media (max-width:818px) {
+    .landing-page-section-one {
+        padding: 120px 40px 40px 40px;
+    }
+
+}
+@media (max-width:750px) {
+    .section-one-content-details{
+        flex-direction: column;
+    }
+    .section-one-content-details > .details-cotent-one{
+        border-bottom: 4px solid var(--white-15);
+        border-right:none;
+    }
+    .hero-title-animated{
+        font-size: 108px ;
+        width: 350px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+}
+@media (max-width:550px) {
+    .section-one-content-button{
+        flex-direction: column;
+    }
+
+}
+
+
+.section-one-content-details{
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+
+}
+.details-cotent-one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 4px solid var(--white-15) ;
+    padding: 20px;
+}
+.details-cotent-one > span {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.details-cotent-one > span > h5 {
+    font-size: 16px;
+    font-family: var(--manrope);
+}
+.details-cotent-one > span > p {
+    font-size: 16px;
+    font-family: var(--manrope);
+}
+.details-content-two{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.details-content-two > span {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.details-content-two > span > h5 {
+    font-size: 16px;
+    font-family: var(--manrope);
+}
+.details-content-two > span > p {
+    font-size: 16px;
+    font-family: var(--manrope);
+}
+.detail-dot{
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    background-color: var(--red-orange);
+}
+
+
+
+.section-one-phone{
+    position: absolute;
+    top: 55%;
+    right: 80px;
+    transform:  translateY(-50%);
+}
+.section-one-phone > img{
+    width: 500px;
+}

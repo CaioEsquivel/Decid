@@ -1,0 +1,295 @@
+.auth-page-container{
+    width: 100%;
+    min-height: 100vh;
+    background: #0E0E0E;
+    background: linear-gradient(-25deg, rgba(0, 0, 0, 1) 0%, rgba(23, 23, 23, 1) 100%);
+}
+.auth-container{
+    background: linear-gradient(180deg, rgba(14, 14, 14, 0.23) 37%, rgba(29, 0, 0, 0.44) 100%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-card{
+    background-color: var(--white-15);
+    border: 1px solid var(--white-40);
+    width: 512px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    border-radius:25px ;
+}
+
+.auth-card-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.auth-card-logo > img{
+    width: 33px;
+    height: 33px;
+}
+.auth-card-logo > span{
+    font-family: var(--manrope);
+    color: var(--pure-white);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 15%;
+}
+.auth-input{
+    background-color: var(--white-15);
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border:1px solid  var(--white-40);
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.auth-input > input{
+    background-color:transparent !important;
+    border: none;
+    height: 100%;
+    font-size: 18px;
+    font-family: var(--manrope);
+    font-weight: var(--medium-text);
+    color: var(--gray-two);
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+}
+.auth-input > i{
+    color: var(--gray-two);
+    font-size: 23px;
+    font-weight: 400;
+}
+.auth-input-detail{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-input-detail > label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.auth-input-detail > label > input{
+    background-color: var(--white-15);
+    border: 1px solid var(--white-40);
+    appearance: none;
+    
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+    transition: all .2s ease-in-out;
+    position: relative;
+}
+.auth-input-detail > label > input:checked{
+    background-color: var(--red-orange);
+    border: 1px solid var(--white-40);
+    appearance: none;
+    
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+.auth-input-detail > label > input::after {
+    content: "✓";
+
+    position: absolute;
+
+    color: transparent;
+    transition: all .2s ease-in-out;
+    font-size: 13px;
+    font-weight: bold;
+
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.auth-input-detail > label > input:checked::after {
+    content: "✓";
+    
+    position: absolute;
+    
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.auth-input-detail > label >span {
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-size: 16px;
+}
+.auth-input-detail > a{
+    color: var(--yellow-marker);
+    font-family: var(--manrope);
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+}
+.auth-input-detail > a::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    transition: all .3s ease-in-out;
+    background-color: var(--yellow-marker);
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.auth-input-detail > a:hover::after{
+    width: 100%;
+}
+.auth-btn-login{
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: var(--medium-text);
+    font-family: var(--manrope);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--yellow-marker);
+    padding: 15px 20px;
+    border-radius: 7px;
+    border: none;
+}
+.line-split{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+.line-split> span{
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-size: 14px;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: var(--white-15);
+}
+.auth-btn-google{
+    width: 100%;
+    font-size: 16px;
+    font-weight: var(--medium-text);
+    font-family: var(--manrope);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--white-80);
+    padding: 15px 20px;
+    border-radius: 7px;
+    border: none;
+}
+.auth-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.auth-card-outlet-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.auth-card-outlet-container > span{
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-size: 16px;
+}
+.auth-card-outlet-container > span > a{
+    color: var(--red-orange);
+    font-family: var(--manrope);
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+}
+.auth-card-outlet-container > span > a::after{
+    content: '';
+    color: var(--red-orange);
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    font-family: var(--manrope);
+    font-size: 18px;
+    background-color: var(--red-orange);
+}
+
+.auth-button-toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom:2px solid var(--white-15) ;
+}
+.auth-button-toggle > a{
+    height: 55px;
+    cursor: pointer;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--pure-white);
+    font-family: var(--manrope);
+    font-weight: var(--medium-text);
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    transition: all .3s ease-in-out;
+}
+.auth-button-toggle > a.active{
+    background-color: var(--white-15);
+}
+.auth-button-toggle > a:hover{
+    background-color: var(--white-05);
+}
+.input-error{
+    border-color: var(--red-orange) !important;
+    -webkit-box-shadow: 0px 0px 8px 0px #FB402F; 
+    box-shadow: 0px 0px 8px 0px #FB402F;
+}
+.error-text{
+    font-family: var(--manrope);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--red-orange);
+    align-self: start;
+}
+.checkbox-error{
+    border-bottom: 1px solid var(--red-orange) !important;
+    color: var(--red-orange) !important;
+}
+

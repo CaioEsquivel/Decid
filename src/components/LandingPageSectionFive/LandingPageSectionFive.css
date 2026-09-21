@@ -1,0 +1,55 @@
+.landing-page-section-five{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    /* background-image:
+    linear-gradient(90deg,
+        rgb(0, 0, 0),
+        rgb(0, 0, 0)
+    ),
+    url(../../assets/banner_peaple.png); */
+    background-image:
+        linear-gradient(90deg,
+            rgba(8, 8, 8, 0.507) 35%,
+            rgba(0, 0, 0, 0.404) 
+        ),
+        url(../../assets/banner_peaple.png);
+    background-size: cover;
+    background-position: center 75%;
+    background-repeat: no-repeat;
+    padding: 80px;
+    gap: 40px;
+    border-top: 4px solid var(--red-orange-40);
+    border-bottom: 4px solid var(--red-orange-40);
+}
+.section-five-content-one{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.section-five-content-one>i{
+    color: var(--red-orange);
+    font-size: 62px;
+    transform: rotate(-30deg);
+}
+.section-five-content-one>h3{
+    font-size: 40px;
+    font-family: var(--playfair);
+    font-weight: var(--medium-text);
+    color: var(--pure-white);
+}
+.section-five-content-two{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+.section-five-content-two>p{
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: var(--medium-text);
+    font-family: var(--manrope);
+    max-width: 450px;
+}
+

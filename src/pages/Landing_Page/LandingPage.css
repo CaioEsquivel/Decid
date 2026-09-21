@@ -1,0 +1,41 @@
+
+/* base */
+
+
+body{
+}
+
+.landing-page-main{
+    background: #000000;
+    background: linear-gradient(-25deg, rgba(0, 0, 0, 1) 0%, rgba(23, 23, 23, 1) 100%);
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+
+/* section two */
+
+
+/* section three */
+
+
+
+
+.landing-menu-popup-blur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    z-index: 3;
+    width: 100vw;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+}
+.landing-menu-popup-blur-active{
+    pointer-events: all;
+    opacity: 1;
+}
+
