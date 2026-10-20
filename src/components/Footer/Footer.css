@@ -24,7 +24,7 @@ footer > nav{
 }
 footer > nav>a{
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-family: var(--manrope);
     color: var(--pure-white);
@@ -52,7 +52,7 @@ footer > nav > a.landing-nav-active::before{
     border: none;
     padding: 10px;
     color: var(--pure-white);
-    font-size: 32px;
+    font-size: 24px;
     cursor: pointer;
 }
 @media (max-width:1145px) {

@@ -11,7 +11,7 @@
 }
 .landing-page-section-two > h2{
     font-family: var(--playfair);
-    font-size: 64px;
+    font-size: 46px;
     font-weight: var(--bold-text);
     color: var(--pure-white);
 }
@@ -20,7 +20,7 @@
 }
 .landing-page-section-two > h3{
     font-family: var(--playfair);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 500;
     color: var(--pure-white);
 }
@@ -159,18 +159,18 @@
     font-family: var(--manrope);
     color: var(--pure-white);
     font-weight: var(--semibold-text);
-    font-size: 24px;
+    font-size: 20px;
 }
 .section-two-card > p{
     font-family: var(--manrope);
     color: var(--pure-white);
-    font-size: 20px;
+    font-size: 16px;
 }
 .section-two-card > span{
     font-family: var(--manrope);
     color: var(--pure-white);
     font-weight: var(--bold-text);
-    font-size: 20px;
+    font-size: 16px;
     color: var(--red-orange);
 }
 

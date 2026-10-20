@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px;
 }
 .auth-card{
     background-color: var(--white-15);
@@ -20,8 +21,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    height: 100%;
+    gap: 20px;
     border-radius:25px ;
 }
 
@@ -93,6 +95,9 @@
     height: 18px;
     transition: all .2s ease-in-out;
     position: relative;
+}
+.auth-input-detail > label > input > span{
+    border-bottom: 1px solid transparent;
 }
 .auth-input-detail > label > input:checked{
     background-color: var(--red-orange);
@@ -264,7 +269,7 @@
     color: var(--pure-white);
     font-family: var(--manrope);
     font-weight: var(--medium-text);
-    font-size: 20px;
+    font-size: 18px;
     background-color: transparent;
     border: none;
     border-radius: 8px 8px 0 0;
@@ -293,3 +298,14 @@
     color: var(--red-orange) !important;
 }
 
+@media (max-width:570px) {
+    .auth-card{
+        width: 100vw;
+        min-height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+    .auth-card-logo{
+        transform: scale(1.2);
+    }
+}

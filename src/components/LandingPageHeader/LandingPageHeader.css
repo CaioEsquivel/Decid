@@ -149,7 +149,7 @@ header{
     align-items: center;
     justify-content: center;
     height: 100%;
-    gap: 100px;
+    gap: 20px;
     transition: all .3s ease;
     opacity: 0;
     pointer-events: none;

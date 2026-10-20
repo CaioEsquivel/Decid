@@ -36,7 +36,7 @@ export const AuthRegisterContent = () => {
                 initial={{ opacity: 0, filter: 'blur(5px)', y: 10 }}
                 animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
                 transition={{ duration: 0.7, ease: "easeOut" }} 
-                className="auth-input"
+                className={`auth-input ${errors?.email ? 'input-error' : ''}`}
             >
                 <i className="ri-user-line"></i>
                 <input autocomplete="off" data-lpignore="true" type="text" placeholder='Nome de usuário' {...register('name', {
@@ -55,7 +55,7 @@ export const AuthRegisterContent = () => {
                 initial={{ opacity: 0, filter: 'blur(5px)', y: 10 }}
                 animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }} 
-                className="auth-input"
+                className={`auth-input ${errors?.email ? 'input-error' : ''}`}
             >
                 <i className="ri-mail-line"></i>
                 <input autocomplete="off" data-lpignore="true" type='email' placeholder='E-mail' {...register('email', {required:true, pattern: {
@@ -72,7 +72,7 @@ export const AuthRegisterContent = () => {
                 initial={{ opacity: 0, filter: 'blur(5px)', y: 10 }}
                 animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }} 
-                className="auth-input"
+                className={`auth-input ${errors?.email ? 'input-error' : ''}`}
             >
                 <i className="ri-lock-line"></i>
                 <input autocomplete="off" data-lpignore="true" type="text" placeholder='Senha' {...register('password', {

@@ -20,7 +20,7 @@ background: linear-gradient(137deg, rgba(46, 46, 46, 0.23) 0%, rgba(15, 15, 15, 
 }
 .section-four-card > p{
     color: var(--pure-white);
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--manrope);
 }
 .section-four-card-details{
@@ -29,12 +29,12 @@ background: linear-gradient(137deg, rgba(46, 46, 46, 0.23) 0%, rgba(15, 15, 15, 
 }
 .section-four-card-details > h5{
     color: var(--pure-white);
-    font-size: 18px;
+    font-size: 16px;
     font-family: var(--manrope);
 }
 .section-four-card-details > span{
     color: var(--gray-one);
-    font-size: 16px;
+    font-size: 14px;
     font-family: var(--manrope);
     font-weight: var(--medium-text);
 }

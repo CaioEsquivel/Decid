@@ -18,27 +18,22 @@ background: linear-gradient(137deg, rgb(27, 27, 27) 0%, rgb(10, 10, 10) 100%);
 }
 .section-three-content>span{
     color: var(--red-orange);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: var(--medium-text);
     font-family: var(--manrope);
 }
 .section-three-content>h3{
     color: var(--pure-white);
-    font-size: 54px;
+    font-size: 46px;
     font-weight: var(--bold-text);
     font-family: var(--playfair);
     line-height: 90%;
 }
+
 .section-three-content>p{
     color: var(--pure-white);
-    font-size: 16px;
-    font-weight: 500;
-    font-family: var(--manrope);
-}
-.section-three-content>p{
-    color: var(--pure-white);
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     font-family: var(--manrope);
 }
 .section-three-card-container{
@@ -62,7 +57,7 @@ background: linear-gradient(137deg, rgb(27, 27, 27) 0%, rgb(10, 10, 10) 100%);
 }
 @media (max-width:546px) {
     .landing-page-section-three{
-        padding: 40px 40px;
+        padding: 40px 10px;
     }
     .section-three-content{
         align-items: center !important;
